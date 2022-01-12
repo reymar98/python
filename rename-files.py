@@ -24,7 +24,7 @@ def main():
 			dt21 = dt20.strftime("%X")
 			dst = dt11 + dt21 + str(count) + ".pdf"
 		 	src = filename 
-			dst = dst.replace('.pdf','.jpg')
+			dst = dst.replace('.pdf','.mp3')
 			os.rename(dir99 + "\\"+  src, dir99 + "\\" + dst) 
 		}
 		
